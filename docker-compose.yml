@@ -1,0 +1,8 @@
+version: '3'
+services:
+  django:
+    container_name: django-invade-app
+    image: <docker_private_repository>
+    ports: 
+      - 8000:8000
+    entrypoint: /docker-entrypoint.sh
